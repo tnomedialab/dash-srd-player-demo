@@ -2,7 +2,7 @@
 | I M P O R T A N T !! | 
 +----------------------+
 
-Its needed change in the output.mpd, line 4
- --> <BaseURL>www.tno.nl/server/dash</BaseURL>
-For the correct URL of the server where the content are storing, example:
- --> <BaseURL>http://192.168.1.191/dash/mmsys/</BaseURL>
+Line 4 in the file output.mpd contains the URL of the content host
+ --> <BaseURL>https://tnomedialab.github.io/dash-srd-player-demo/Dancers/</BaseURL>
+This BaseURL needs to be changed when serving on a different domain, example:
+ --> <BaseURL>http://www.myserver.com/Dancers/</BaseURL>
