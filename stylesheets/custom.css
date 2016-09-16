@@ -1,0 +1,56 @@
+.video-insert {
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: 400px; 
+	height: auto; 
+	z-index: -100;
+	background-size: cover;
+	overflow: hidden;
+	box-shadow: 0px 0px 50px #888888;
+}
+
+.text {
+	text-align: justify;
+}
+
+@media only screen and (max-width: 1150px) {
+	/* For mobile phones: */
+	[class*="container"] {
+		width: 600px;
+	}
+
+	[class*="box"] {
+		display: inline-block;
+		margin-top: 0.3em;
+		margin-bottom: 0.3em;
+	}
+
+	[class*="boxA"] {
+		float: unset;
+		margin-right: 140px;
+		margin-left: 140px;
+	}
+
+	[class*="boxB"] {
+		float: unset;
+		margin-right: 140px;
+		margin-left: 140px;
+	}
+
+	[class*="boxC"] {
+		float: unset;
+		margin-right: 140px;
+		margin-left: 140px;
+	}
+	
+	[class*="tbox1"] {
+		float: unset;
+	}
+	
+	[class*="tbox2"] {
+		float: unset;
+		margin-right: unset;
+	}
+}
