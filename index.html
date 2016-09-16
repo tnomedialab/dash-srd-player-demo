@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--  
 * The copyright in this software is being made available under the following 
 * TNO license terms. This software may be subject to other third party and 
@@ -34,31 +33,115 @@
 * THE POSSIBILITY OF SUCH DAMAGE.
 -->
 
-<html> 
-    
-<head>
-    <meta charset="UTF-8">
-    <title>DASH-SRD Player</title>
- 
-    <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="./public/srdplayerstyle.css">
-    <link rel="stylesheet" type="text/css" href="./public/controlbar.css">
-   
-    <!--3rd Party JavaScript libs-->
-    <script src="./build/dash.all.js"></script>
-    <script src="./src/lib/jquery-1.11.3.min.js"></script>
-    <script src="./src/lib/hammer.min.js"></script>
-    <script src="./src/lib/jquery.hammer.js"></script>
-    <script src="./src/lib/timingsrc.js"></script>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-    <!--SRD Player JavaScript -->
-    <script src = "./build/dash-srd.min.js"></script>   
+</head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MPEG-DASH SRD</title>
+<meta name="keywords" content="DASH, MPEG-DASH, SRD, Server, DASH client, JavaScript" />
+<meta name="description" content="A brief description of MPEG-DASH SRD illustrated by a demonstration" />
+
+<!--Page-template-CSS-->
+<link href="//fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
+<link href="stylesheets/default.css" rel="stylesheet" media="all" />
+<link href="stylesheets/custom.css" rel="stylesheet" media="all" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="//cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.min.css" rel="stylesheet" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/themes/tooltipster-punk.min.css" rel="stylesheet" />
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+<!--SRD-Player-CSS-->
+<link rel="stylesheet" type="text/css" href="./public/srdplayerstyle.css">
+<link rel="stylesheet" type="text/css" href="./public/controlbar.css">
+   
+<!--3rd Party JavaScript libs-->
+<script src="./build/dash.all.js"></script>
+<script src="./src/lib/jquery-1.11.3.min.js"></script>
+<script src="./src/lib/hammer.min.js"></script>
+<script src="./src/lib/jquery.hammer.js"></script>
+<script src="./src/lib/timingsrc.js"></script>
+
+<!--SRD-Player-JavaScript-->
+<script src = "./build/dash-srd.min.js"></script>   
+
+<!--Google-Analytics-scripts--> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83868131-1', 'auto');
+          ga('send', 'pageview');
+
+</script>
 </head>
 
-
 <body class="unselectable" onLoad="Dash.createAll()"> 
+<div id="wrapper">
+  <div id="header-wrapper">
+    <div id="header" class="container">
+      <div id="logo">
+        <h1><a href="//github.com/tnomedialab"><img id="header-logo" src="assets/tnomedialab_logo_white.png">Medialab</img></a></h1>
+      </div>
+      <div id="menu">
+        <a href="//tno.nl/en">
+          <img id="header-logo" src="assets/tno_logo.png"></img>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="banner">
+    <div class="container">
+      <div class="title">
+        <h2>MPEG-DASH SRD</h2>
+        <span class="byline">a.k.a. ISO/IEC 23009-1:2014/Amd 2:2015 Spatial Relationship Description</span>
+      </div>
+    </div>
+  </div>
+  <div id="extra">
+    <div class="container">
+      <div class="title">
+        <h2>What is SRD ?</h2>
+      </div>
+      <div id="three-column">
+        <div class="boxA">
+          <div class="box"> <span class="fa fa-envelope-o"></span>
+            <p class="text"><strong>SRD</strong> defines a set of media attributes <strong>MPEG-DASH</strong>-enabled HTTP server can deliver to client.</p>
+          </div>
+        </div>
+        <div class="boxB">
+          <div class="box"> <span class="fa fa-exchange"></span>
+            <p class="text">The attributes defined in <strong>SRD</strong> describe the spatial relation of <strong>MPEG-DASH</strong> contents </p>
+          </div>
+        </div>
+        <div class="boxC">
+          <div class="box"> <span class="fa fa-flash"></span>
+            <p class="text"><strong>SRD</strong> enables use-cases such as zoomable/navigable video and bandwith efficient 360 degree video.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="featured">
+    <div class="container">
+      <div class="title">
+        <h2>Demo</h2>
+        <span class="byline">Zoomable and navigable video in JavaScript</span>
+        <p>
+          <span>
+            <i class="fa fa-4x fa-laptop" style="vertical-align:middle"></i>
+            <i class="fa fa-4x fa-arrows-h"style="vertical-align:middle"></i>
+            <span class="fa-stack fa-5x">
+                <i class="fa fa-cloud fa-stack-2x"></i>
+                <i class="fa fa-server fa-stack-4x"></i>
+            </span>
+          </span>
+         </p>
+        <p class="text">The player below allows zooming and navigating on MPEG-DASH SRD videos. It contains the URL of a demo video. Clicking Open video will retrieve the video and start playback. By double-clicking, the video can be zoomed in. At a maximum of two times, after that double-clicking will zoom out. Navigating can be done with a left mousebutton hold and moving around. The demo is currently for notebooks and desktops only.</p>
 
-<div id="SRDPlayer" class="unselectable">   
+      </div>
+        <div id="SRDPlayer" class="unselectable">   
     <div id="videoContainer">    
     <div id="bannerbox">
     </div>    
@@ -132,14 +215,33 @@
     <input type="text" id="mpdURL" value="https://tnomedialab.github.io/dash-srd-player-demo/Dancers/output.mpd">
     <input type="submit" name="Open video" id="mpdButton" onclick="openVideo()" value="Open video" />
     </div>
-    <br>    
-    <br>  
-    <br>  
-    <p id="usageHint">Double click on a video zooms in or out. When zoomed in, the video can also be dragged.</p>
+    </div>  
+    </div>
+    </div>
+  </div>
+  </div>
+  <div id="extra">
+    <div class="container">
+      <div class="title">
+        <h2>Going further...</h2>
+         <span class="byline">More about MPEG-DASH SRD</span>
+      </div>
+      <div id="further-links">
+        <ul class="actions">
+          <li>
+            <a href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=66486" class="button">Standard</a>
+            <a href="http://dl.acm.org/citation.cfm?id=2910634" class="button">MMSys 2016 paper</a>
+            <a href="mailto:jorrit.vandenberg@tno.nl" class="button">Contact</a>
+          </li>
+        </ul>
+     </div>
+   </div>
+  </div>
 </div>
-<br>    
-<br>  
-<br>  
-<br>  
-</body> 
+<div id="copyright" class="container">
+  <p>&copy; <a href="//tno.nl/en">TNO</a>. All rights reserved. | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+
+</body>
+<script>
 </html>
