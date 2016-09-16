@@ -60,7 +60,7 @@ video.fullscreen {
 }
 
 #SRDPlayer {
-    position: absolute;
+    position: relative;
     width: 640px;
     height: 548px;
     top:0;
