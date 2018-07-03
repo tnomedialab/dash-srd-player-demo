@@ -8,7 +8,7 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
       <SupplementalProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,0,0,1280,720,1280,720,0" />
-      <Representation bandwidth="1535848" codecs="avc1.614034" frameRate="30.0" height="720" id="0" startWithSAP="1" width="1280">
+      <Representation bandwidth="1535848" codecs="avc1.42c01f" frameRate="30.0" height="720" id="0" startWithSAP="1" width="1280">
         <BaseURL>video/main/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -17,10 +17,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,0,0,1280,720,1920,1080,1" />
-      <Representation bandwidth="3101693" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="3101693" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_0/Tile_0/</BaseURL>
       </Representation>
-      <Representation bandwidth="1867044" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="1867044" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_0/Tile_0/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -29,10 +29,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,0,360,1280,720,1920,1080,1" />
-      <Representation bandwidth="2682363" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="2682363" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_0/Tile_1/</BaseURL>
       </Representation>
-      <Representation bandwidth="2288868" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="2288868" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_0/Tile_1/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -41,10 +41,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,640,0,1280,720,1920,1080,1" />
-      <Representation bandwidth="3307910" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="3307910" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_0/Tile_2/</BaseURL>
       </Representation>
-      <Representation bandwidth="1921851" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="1921851" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_0/Tile_2/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -53,10 +53,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,640,360,1280,720,1920,1080,1" />
-      <Representation bandwidth="3296065" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="3296065" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_0/Tile_3/</BaseURL>
       </Representation>
-      <Representation bandwidth="2221515" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="2221515" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_0/Tile_3/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -65,10 +65,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,0,0,1536,864,3840,2160,2" />
-      <Representation bandwidth="2313046" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="2313046" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_0/</BaseURL>
       </Representation>
-      <Representation bandwidth="1943270" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="1943270" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_0/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -77,10 +77,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,0,432,1536,864,3840,2160,2" />
-      <Representation bandwidth="3180245" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="3180245" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_1/</BaseURL>
       </Representation>
-      <Representation bandwidth="1987514" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="1987514" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_1/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -89,10 +89,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,0,864,1536,864,3840,2160,2" />
-      <Representation bandwidth="2955705" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="2955705" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_2/</BaseURL>
       </Representation>
-      <Representation bandwidth="2123006" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="2123006" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_2/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -101,10 +101,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,0,1296,1536,864,3840,2160,2" />
-      <Representation bandwidth="2155604" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="2155604" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_3/</BaseURL>
       </Representation>
-      <Representation bandwidth="1973823" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="1973823" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_3/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -113,10 +113,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,768,0,1536,864,3840,2160,2" />
-      <Representation bandwidth="2399048" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="2399048" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_4/</BaseURL>
       </Representation>
-      <Representation bandwidth="1870156" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="1870156" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_4/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -125,10 +125,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,768,432,1536,864,3840,2160,2" />
-      <Representation bandwidth="3902111" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="3902111" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_5/</BaseURL>
       </Representation>
-      <Representation bandwidth="2002176" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="2002176" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_5/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -137,10 +137,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,768,864,1536,864,3840,2160,2" />
-      <Representation bandwidth="4279406" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="4279406" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_6/</BaseURL>
       </Representation>
-      <Representation bandwidth="2278983" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="2278983" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_6/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -149,10 +149,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,768,1296,1536,864,3840,2160,2" />
-      <Representation bandwidth="2016730" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="2016730" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_7/</BaseURL>
       </Representation>
-      <Representation bandwidth="1976312" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="1976312" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_7/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -161,10 +161,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,1536,0,1536,864,3840,2160,2" />
-      <Representation bandwidth="2903897" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="2903897" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_8/</BaseURL>
       </Representation>
-      <Representation bandwidth="1959919" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="1959919" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_8/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -173,10 +173,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,1536,432,1536,864,3840,2160,2" />
-      <Representation bandwidth="3872723" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="3872723" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_9/</BaseURL>
       </Representation>
-      <Representation bandwidth="2004315" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="2004315" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_9/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -185,10 +185,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,1536,864,1536,864,3840,2160,2" />
-      <Representation bandwidth="4328920" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="4328920" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_10/</BaseURL>
       </Representation>
-      <Representation bandwidth="2183258" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="2183258" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_10/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -197,10 +197,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,1536,1296,1536,864,3840,2160,2" />
-      <Representation bandwidth="2286743" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="2286743" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_11/</BaseURL>
       </Representation>
-      <Representation bandwidth="1994999" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="1994999" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_11/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -209,10 +209,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,2304,0,1536,864,3840,2160,2" />
-      <Representation bandwidth="2488937" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="2488937" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_12/</BaseURL>
       </Representation>
-      <Representation bandwidth="1924798" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="1924798" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_12/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -221,10 +221,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,2304,432,1536,864,3840,2160,2" />
-      <Representation bandwidth="3836136" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="3836136" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_13/</BaseURL>
       </Representation>
-      <Representation bandwidth="2023741" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="2023741" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_13/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -233,10 +233,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,2304,864,1536,864,3840,2160,2" />
-      <Representation bandwidth="3929931" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="3929931" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_14/</BaseURL>
       </Representation>
-      <Representation bandwidth="2130655" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="2130655" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_14/</BaseURL>
       </Representation>
     </AdaptationSet>
@@ -245,10 +245,10 @@
       <SegmentTemplate duration="3000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4f" startNumber="1" timescale="1000" />
       <Role schemeIdUri="urn:mpeg:dash:role:2011" />
       <EssentialProperty schemeIdUri="urn:mpeg:dash:srd:2014" value="0,2304,1296,1536,864,3840,2160,2" />
-      <Representation bandwidth="2235949" codecs="avc1.614034" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
+      <Representation bandwidth="2235949" codecs="avc1.42c01f" frameRate="30.0" height="540" id="0" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_15/</BaseURL>
       </Representation>
-      <Representation bandwidth="1982520" codecs="avc1.614034" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
+      <Representation bandwidth="1982520" codecs="avc1.42c01f" frameRate="30.0" height="540" id="1" startWithSAP="1" width="960">
         <BaseURL>video/srd/Level_1/Tile_15/</BaseURL>
       </Representation>
     </AdaptationSet>
